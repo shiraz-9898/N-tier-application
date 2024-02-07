@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BLL_Bussiness_Logic_Layer_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BOL(Business Object Layer)\BOL(Business Object Layer).csproj" />
+    <ProjectReference Include="..\DAL(Data Access Layer)\DAL(Data Access Layer).csproj" />
+  </ItemGroup>
+
+</Project>
